@@ -1,0 +1,20 @@
+{
+  "name": "tdd-practice",
+  "version": "1.0.0",
+  "description": "Practice with tdd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B1t-Master/test-driven-development-practice.git"
+  },
+  "license": "ISC",
+  "author": "B1t-Master",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *js"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.28.6",
+    "jest": "^30.2.0"
+  }
+}
