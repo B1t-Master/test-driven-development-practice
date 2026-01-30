@@ -1,4 +1,4 @@
-const reverseString = require("../reverse-string");
+import { reverseString } from "../reverse-string";
 
 test("gives an input of string in reverse order", () => {
   expect(reverseString("odin")).toBe("nido");

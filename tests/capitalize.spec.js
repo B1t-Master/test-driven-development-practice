@@ -1,5 +1,4 @@
-const capitalize = require("../capitalize");
-
+import { capitalize } from "../capitalize";
 test("capitalize the first letter of a string", () => {
   const strings = [
     { string: "odin", expected: "Odin" },

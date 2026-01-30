@@ -9,6 +9,7 @@
   "license": "ISC",
   "author": "B1t-Master",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "watch": "jest --watch *js"
